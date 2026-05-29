@@ -1,0 +1,21 @@
+{
+  "name": "discord-ticket-bot",
+  "version": "1.0.0",
+  "description": "Advanced Discord Ticket System with Full Persistence",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["discord", "ticket", "bot"],
+  "author": "raceliscjcruz04-jpg",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.23.0",
+    "better-sqlite3": "^9.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
